@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ustawi Laundry and Computer Services</title>
+<meta name="description" content="Laundry, computer services, stationery and tailoring in one place. See clear prices, order online, pay by M-Pesa, track your order and get your receipt.">
+<meta name="theme-color" content="#0a2a5c">
+<meta property="og:title" content="Ustawi Laundry and Computer Services"><meta property="og:description" content="Laundry, computer services, stationery and tailoring. Order online, pay with M-Pesa, track your order."><meta property="og:type" content="website"><meta property="og:image" content="images/hero.svg">
+<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="manifest" href="manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Ustawi Laundry and Computer Services","description":"Laundry, computer services, stationery and tailoring.","priceRange":"KSh","currenciesAccepted":"KES","paymentAccepted":"M-Pesa, Cash","address":{"@type":"PostalAddress","addressCountry":"KE"}}</script>
+</head>
+<body>
+<div id="bar" aria-hidden="true"></div>
+<header class="nav">
+  <a class="brand" href="#/home"><span class="logo" aria-hidden="true">U</span><span>Ustawi<small>Laundry &amp; Computer Services</small></span></a>
+  <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">☰</button>
+  <nav id="menu">
+    <a href="#/home" data-p="home">Home</a><a href="#/services" data-p="services">Services &amp; prices</a><a href="#/track" data-p="track">Track order</a>
+    <a href="#/about" data-p="about">About</a><a href="#/faq" data-p="faq">FAQ</a><a href="#/contact" data-p="contact">Contact</a>
+    <a href="#/account" data-p="account" id="navAcc">Log in</a>
+    <a class="btn small" href="#/order" data-p="order">Order now <span class="count" id="cartCount" hidden>0</span></a>
+  </nav>
+</header>
+<main class="stage"><div id="view" class="view"></div></main>
+<footer>
+  <div class="fgrid">
+    <div><strong id="fName">Ustawi Laundry and Computer Services</strong><p>Your Satisfaction, Our Priority</p><p class="mute2" id="fContact"></p></div>
+    <div><a href="#/services">Services &amp; prices</a><a href="#/order">Order online</a><a href="#/track">Track order</a><a href="#/account">My account</a></div>
+    <div><a href="#/about">About us</a><a href="#/faq">FAQ</a><a href="#/contact">Contact &amp; map</a></div>
+  </div>
+  <p class="copy">© <span id="yr"></span> Ustawi. Pay safely with M-Pesa Till <span id="fTill"></span>.</p>
+</footer>
+<a class="wa-float" id="waFloat" href="#" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">💬</a>
+<button class="totop" id="toTop" aria-label="Back to top" hidden>↑</button>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="app.js"></script>
+</body>
+</html>
